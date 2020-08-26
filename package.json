@@ -3,7 +3,7 @@
   "private": false,
   "description": "A 100 Days of Code site template to share and keep track of your work.",
   "version": "1.0.0",
-  "author": "Brett Stevens",
+  "author": "Raja Rahul",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -47,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brettmstevens7/100-days-of-code-site"
+    "url": "https://github.com/rajarahul12/100-days-of-code-site"
   },
   "bugs": {
-    "url": "https://github.com/brettmstevens7/100-days-of-code-site/issues"
+    "url": "https://github.com/rajarahul12/100-days-of-code-site/issues"
   }
 }

@@ -1,10 +1,10 @@
 module.exports = {
     siteMetadata: {
-        title: `Brett's 100 Days of Code`,
-        description: `Hey I'm Brett! I'm a designer and developer completing the 100 Days of Code Challenge.`,
-        author: `@brettmstevens7`,
-        githubUrl: "https://github.com/brettmstevens7",
-        twitterUrl: "https://twitter.com/brettmstevens"
+        title: `Rahul's 100 Days of Code`,
+        description: `Hey I'm Rahul! I'm a developer completing the 100 Days of Code Challenge.`,
+        author: `@rajarahul12`,
+        githubUrl: "https://github.com/rajarahul12",
+        twitterUrl: "https://twitter.com/rajarahul123"
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -33,7 +33,6 @@ module.exports = {
                 background_color: `#663399`,
                 theme_color: `#663399`,
                 display: `minimal-ui`,
-                icon: `src/images/me.png` // This path is relative to the root of the site.
             }
         },
         {

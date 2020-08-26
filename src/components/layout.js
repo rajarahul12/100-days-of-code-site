@@ -29,13 +29,6 @@ const Layout = ({ children }) => {
                     twitterUrl
                 }
             }
-            avatar: file(relativePath: { eq: "me.png" }) {
-                childImageSharp {
-                    fixed(height: 84) {
-                        ...GatsbyImageSharpFixed
-                    }
-                }
-            }
         }
     `);
 
@@ -54,14 +47,14 @@ const Layout = ({ children }) => {
                 }}
             >
                 <main>{children}</main>
-                <footer>
+                {/* <footer>
                     © {new Date().getFullYear()}. Built by
                     {` `}
                     <a target="_blank" rel="noreferrer" href={data.site.siteMetadata.githubUrl}>
                         {data.site.siteMetadata.author}
                     </a>
                     .
-                </footer>
+                </footer> */}
             </div>
         </MuiThemeProvider>
     );
